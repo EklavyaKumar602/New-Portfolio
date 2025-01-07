@@ -1,0 +1,522 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+  @media only screen and (max-width:400px){
+    .header{
+      height: 255px;
+      width: 100%;
+      color: black;
+      background-color: blueviolet;
+    }
+    .header .img{
+      width: 100%;
+      height: 55px;
+      background-color: #fff;
+    }
+    .header .img img{
+      height: 50px;
+      width: 50px;
+      padding: 5px 0px 0px 5px;
+    }
+    .header .menu{
+      height: 200px;
+      width: 100%;
+      
+    }
+    .header .menu ul{
+      flex-direction:column;
+      line-height: 40px;
+      padding-right: 100px;
+    }
+    .menu ul li{
+      padding: 0px;
+    }
+    .header .img button{
+      height: 30px;
+      width: 30px;
+      display:contents;
+    }
+  }
+  .img{
+    height: 100px;
+    width: 30%;
+    float: left;
+    justify-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 20px;
+   
+   
+   
+  }
+  .img button{
+    display: none;
+  }
+  .img img{
+    height: 90px;
+    width: 120px;
+    padding-left: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+  } 
+  .menu{
+    height: 100px;
+    width: 70%;
+    float: right;
+    font-size: 20px;
+  }
+  .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 100px;
+   
+  }
+  .menu ul li{
+    padding-left: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:bold;
+  }
+  .menu ul li a:hover{
+    cursor: pointer;
+    color: blueviolet;
+    text-decoration-line: underline;
+  }
+ 
+  .menu ul li a{
+    color: black;
+    text-decoration: none;
+  }
+  .menu ul li a img{
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+
+  }
+
+ .name{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(62,56,218,255);
+  }
+  .name h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    padding-top: 20px;
+  }
+ .name h3 span{
+    font-size: 50px;
+    color:black;
+  }
+  .name h3 span:hover{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff; */
+  }
+  /* name div content end */
+  
+  /* page1 div content start */
+  #page1{
+      height: 74vh;
+      width: 100%;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      font-size: 18px;
+      
+  }
+  .social{
+    height: 74vh;
+    width: 30%;
+    float: left;
+    background-color:rgba(62,56,218,255) ;
+  }
+  .social table{
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+
+  }
+  .social table tr{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+  }
+  .social table tr:hover{
+    background-color: black;
+  }
+  .social table tr td a img{
+    height: 30px;
+    width: 30px;
+  }
+  #page1 .animatename {
+    height:74vh;
+    float: right;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-image:url("backg.jpg");
+  }
+  #page1 .animatename h3{
+    color: white;
+    font-size: 70px;
+    padding-top: 200px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+  }
+  
+  #page1 .animatename h3 span{
+    color: black;
+    font-size:50px;
+    text-transform: uppercase;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  .about{
+    height: 300px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background-color:rgb(227, 229, 231) ;
+  }
+  .about h1{
+    padding-top: 40px;
+    font-weight: bold;
+  }
+  .combination{
+    height: 410px;
+    width: 100%;
+    
+  }
+  .know{
+    height: 410px;
+    width: 50%;
+    float: left;
+    background-color:rgb(227, 229, 231) ;
+    padding-left: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .know button{
+    height: 50px;
+    width: 150px;
+    background-color:#f4f4f4;
+    border-color: #f4f4f4;
+    
+  }
+  .know button:hover{
+    background-color: rgba(62,56,218,255);
+    a{
+      color: white;
+    }
+
+  }
+  .know button a{
+    color: black;
+    text-decoration: none;
+    
+  }
+  .skills{
+    height: 410px;
+    width: 50%;
+    float: right;
+    background-color:rgb(227, 229, 231) ;
+    padding-left: 100px;
+
+  }
+  .skills button:hover{
+    background-color:rgba(62,56,218,255) ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  .skills button img{
+    height: 25px;
+    width: 25px;
+    align-items: center;
+  }
+  .skills .c{
+    height: 40px;
+    width: 80px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+
+    
+  }
+  .skills .cpp{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .java{
+    height: 40px;
+    width: 100px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .python{
+    height: 40px;
+    width: 100px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .dsa{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .html{
+    height: 40px;
+    width: 100px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .css{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .javascript{
+    height: 40px;
+    width: 130px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .php{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .sql{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .git{
+    height: 40px;
+    width: 90px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .github{
+    height: 40px;
+    width: 130px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .bootstrap{
+    height: 40px;
+    width: 140px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .http{
+    height: 40px;
+    width: 100px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .prompt{
+    height: 40px;
+    width: 200px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .skills .video{
+    height: 40px;
+    width: 150px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border-color:  #f4f4f4;
+    
+  }
+  .projects{
+    height: 300px;
+    width: 100%;
+    background-color: #f4f4f5;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .projects h1{
+    padding-top: 40px;
+    font-weight: bold;
+  }
+  .body{
+    background-color: #f4f4f5;
+  }
+  .container{
+    height: 410px;
+    width: 100%;
+    background-color:#f4f4f5;
+    display: flex;
+    gap: 200px;
+  }
+  .arrow {
+    height: 150px;
+    cursor: pointer;
+    
+    
+  }
+  .left{
+    transform: rotate(180deg);
+    padding-bottom: 100px;
+  }
+  .right{
+    padding-top: 100px;
+  }
+  .frame{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .slider{
+    display: flex;
+    transition: all 1s ease;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .contacts{
+    height: 710px;
+    width: 100%;
+    background-color:rgba(62,56,218,255); 
+    color: white;
+    text-align: center;
+  }
+  .contacts h1{
+    padding-top: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  .cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: hsl(263, 81%, 48%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color:rgba(62,56,218,255);
+}
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+}
+.footer{
+  height: 320px;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  
+}
+.footer h4{
+  padding: 40px 0px 0px 170px;
+  letter-spacing: 1px;
+  text-shadow:
+   #ffffff
+   #ffffff
+   #fff;
+  color: rgba(62,56,218,255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer h6{
+  padding: 0px 0px 0px 170px;
+
+}
+.footer hr{
+  width: 80%;
+  background-color:antiquewhite ;
+  margin-left:170px ;
+  margin-top: 70px;
+}
+.footer p{
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: none;
+  
+}
+.footer p a{
+  color: white;
+  font-style:oblique;
+  letter-spacing: 1px;
+}
