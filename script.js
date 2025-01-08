@@ -33,11 +33,3 @@ left.addEventListener('click',()=>{
     }
     
 });
-btnclk=document.querySelector('.btnclk')
-menu=document.querySelector('.menu')
-unli=document.querySelector('.unli')
-
-btnclk.addEventListener('click',()=>{
-    menu.classList.toggle('mnu')
-    unli.classList.toggle('li')
-});
