@@ -27,7 +27,7 @@
    
    
   }
-  .menu button img{
+  .menu .hambur img{
     display: none;
   }
   .img img{
@@ -505,7 +505,7 @@ input[type="submit"]:hover {
 /* footer div content end */
 
 /* media query for 1280 width devices for responsive */
-@media  screen and (max-width:1280px){
+@media(max-width:1280px){
   .combination{
     height: 500px;
     width: 100%;
@@ -522,7 +522,7 @@ input[type="submit"]:hover {
 }
 
 /* media query for 1024 width devices for responsive */
-@media screen and(max-width:1024px){
+@media(max-width:1024px){
   #page .animatename{
     height: 35vh;
     width: 70%;
@@ -531,14 +531,40 @@ input[type="submit"]:hover {
 }
 
 /* media query for 912 width devices for responsive */
-@media screen and(max-width:912px){
+@media(max-width:959px){
    .menu ul{
     display:none;
     
   }
-  .menu button img{
+  .menu .hambur img{
     height: 80px;
     width: 80px;
-    display:contents;
+    display:block;
+    margin: 10px 0px 0px 80%;
+  }
+  .know{
+    padding-left: 30px;
+  }
+  .skills{
+    padding-left: 28px;
+  }
+
+}
+@media (max-width:826px){
+  .combination{
+    height: 800px;
+    width: 100%;
+
+  }
+  .combination .know{
+    height: 400px;
+    width: 100%;
+    float: none;
+    align-items: center;
+  }
+  .combination .skills{
+    float: none;
+    height: 400px;
+    width: 100%;
   }
 }
