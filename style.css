@@ -568,3 +568,17 @@ input[type="submit"]:hover {
     width: 100%;
   }
 }
+@media(max-width:595px){
+  .combination{
+    height: 1000px;
+    width: 100%;
+  }
+  .combination .know{
+    height: 500px;
+    width: 100%;
+  }
+  .combination .skills{
+    height: 500px;
+    width: 100%;
+  }
+}
