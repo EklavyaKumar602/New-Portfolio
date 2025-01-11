@@ -612,15 +612,15 @@ input[type="submit"]:hover {
     display: block;
   }
   .combination{
-    height: 1060px;
+    height: 1100px;
     width: 100%;
   }
   .combination .know{
-    height: 530px;
+    height: 575px;
     width: 100%;
   }
   .combination .skills{
-    height: 500px;
+    height: 525px;
     width: 100%;
   }
   
